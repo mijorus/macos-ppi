@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>macOS PPI Calculator</title>
+    <meta name="description" content="Calculate the optimal size and resolution for your monitor with macOS">
     <link rel="stylesheet" href="/Skeleton-2.0.4/css/normalize.css">
     <link rel="stylesheet" href="/Skeleton-2.0.4/css/skeleton.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +17,7 @@
 </head>
 
 <body>
-    <h1>macOS PPI calculator</h1>
+    <h1>macOS PPI Calculator</h1>
     <p style="text-align: center;">Calculate the optimal size and resolution for your monitor with macOS</p>
 
     <div class="gap"></div>
@@ -42,6 +43,15 @@
                 <span> inch</span>
             </div>
         </div>
+    </div>
+    
+    <div style="margin-top: 100px;"></div>
+    <hr>
+    <div class="centered" style="margin: 30px;">
+        <a href="https://github.com/mijorus/macos-ppi">
+            <img src="/github-mark.svg" alt="" srcset="" width="20">
+        </a>
+        <a href="https://bjango.com/articles/macexternaldisplays2/">Credits - bjango.com</a>
     </div>
 </body>
 
@@ -210,6 +220,14 @@
         display: flex;
         flex-direction: column;
         align-items: end;
+    }
+    
+    .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
     }
 
     @media screen and (max-width: 768px) {
