@@ -1,1 +1,1 @@
-# Calculate the optimal size and resolution for your monitor with macOS
+# macos-ppi
